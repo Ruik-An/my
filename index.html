@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+
+
 <body>
-    describe("pow", function() {
-        it("возводит в n‐ю степень", function() {
-          assert.equal(pow(2, 3), 8);
-        });
-      });
-      
+  
+
+
+
+<form id="frm" >
+  Type:<br>
+  <input type="text" name="type"  id="typ"><br>
+  Units:<br>
+  <input type="number"  name="units" id="uni" value="0" step="1" min="0" max="100"><br>
+</form>
+
+
+
+
+<table id="tbl" style="border: 2px solid black;" onclick= " my()">
+
+<script>
+  function my() {
+let form=document.forms.frm
+let elem=form.elements.units
+let ro=document.getElementById("uni").stepUp(1*2);
+
+  }
+</script>
+
+
+<td><tr>name</tr></td>
+<td>rost</td>
+
+</table>
+
 </body>
+
+<br>
+<form id="f1">
+  <input type="number" id="tx" value="0" step="1">
+</form>
 </html>
